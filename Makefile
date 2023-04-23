@@ -16,5 +16,5 @@ main: $(OBJS)
 	$(CC) $(LIBS) $(OBJS) -o $@ 
 
 clean:
-	rm -f *.o *.so
+	rm -f *.o *.so main
 
